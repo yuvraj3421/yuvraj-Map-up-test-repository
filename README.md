@@ -64,8 +64,7 @@ Calculate the count of occurrences for each `car_type` category and return the r
 Create a Python function named `get_bus_indexes` that takes the `dataset-1.csv` as a DataFrame. The function should identify and return the indices as a list (sorted in ascending order) where the `bus` values are greater than twice the mean value of the `bus` column in the DataFrame.
 
 ## Question 4: Route Filtering
-
-Create a Python function named `filter_routes` that takes the `dataset-1.csv` as a DataFrame. The function should filter and return a list of values from the column `route` where the average value of the `truck` column is greater than 7.
+Create a python function `filter_routes` that takes the `dataset-1.csv` as a DataFrame. The function should return the sorted list of values of column `route` for which the average of values of `truck` column is greater than 7.
 
 ## Question 5: Matrix Value Modification
 
